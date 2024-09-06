@@ -1,0 +1,82 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #f4efe0;
+    color: #5c3b1e;
+    margin: 20px;
+    padding: 20px;
+}
+
+h1 {
+    font-family: 'Georgia', serif;
+    text-align: center;
+    color: #7a5230;
+    text-shadow: 2px 2px #d4c09b;
+}
+
+form {
+    background-color: #fff2d4;
+    padding: 20px;
+    border: 2px solid #7a5230;
+    width: 300px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+label {
+    font-size: 18px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #7a5230;
+    border-radius: 5px;
+    background-color: #fbf6e1;
+    color: #5c3b1e;
+}
+
+button {
+    background-color: #7a5230;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5c3b1e;
+}
+
+table {
+    max-width: 500px;
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    border: 2px solid #7a5230;
+    background-color: #fff2d4;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+th, td {
+    border: 1px solid #7a5230;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f4d7a2;
+    color: #5c3b1e;
+}
+
+td {
+    color: #5c3b1e;
+}
+
+thead {
+    font-weight: bold;
+    font-family: 'Georgia', serif;
+}
